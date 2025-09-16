@@ -1,0 +1,38 @@
+Practical No. 04 – Aggregates & Calculated Fields
+
+Aim: Use aggregates, calculated fields, text/date/logical functions, parameters, and search text fields.
+
+Steps with How to Perform:
+
+Import Data
+
+File → Open dataset.
+
+Aggregate Functions
+a) Drag Sales → Rows → Right-click → choose Measure → Sum.
+b) Repeat with AVG, COUNT as required.
+
+Calculated Fields
+a) Right-click Data Pane → Create Calculated Field.
+b) Example: Profit Ratio = [Profit]/[Sales].
+c) Use it in chart like any measure.
+
+Text Functions
+a) Create Calculated Field → UPPER([Category]) to convert text.
+b) Use for search or grouping.
+
+Date Functions
+a) Calculated Field → YEAR([Order Date]).
+b) Drag into Rows/Columns for time-based charts.
+
+Logical Functions
+a) Calculated Field → IF [Profit]>0 THEN "Profit" ELSE "Loss" END.
+b) Drag to Color to highlight profit vs loss.
+
+Parameters
+a) Right-click Data Pane → Create Parameter.
+b) Use parameter in a calculated field for dynamic filtering.
+
+Searching Text Fields
+
+Use filter/search bar in Data Pane or chart.
