@@ -1,0 +1,135 @@
+Practical No. 08 – Interactive Dashboards
+
+Aim: Learn considerations for dashboard creation, place multiple charts, add titles/navigation/buttons/actions to make dashboards interactive.
+
+1. Open Tableau & Connect Data
+
+Open Tableau Public.
+
+Connect to the Lung Cancer dataset.
+
+How to Perform:
+
+On the Start Page → under Connect, click Microsoft Excel/CSV (depending on your dataset format).
+
+Select your file and click Open.
+
+2. Create a Bar Chart (Alcohol Consumption vs Lung Cancer)
+
+Drag Alcohol Consuming → Columns.
+
+Drag Number of Records (count of dataset) → Rows.
+
+Drag Lung Cancer → Color.
+
+How to Perform:
+
+This creates a grouped bar chart showing how alcohol consumption relates to lung cancer, with bars colored by cancer status.
+
+3. Create Doughnut Chart for Lung Cancer
+
+Create a new sheet.
+
+Create a Dummy field:
+
+Right-click Data Pane → Create Calculated Field → type 0 → name it Dummy.
+
+Drag Dummy twice into Rows.
+
+Right-click the second axis → select Dual Axis.
+
+Format chart using Lung Cancer dimension and dataset count.
+
+How to Perform:
+
+The Dual Axis trick makes two concentric circles → after formatting inner circle smaller, it becomes a doughnut chart.
+
+Assign Lung Cancer to Color to show categories.
+
+4. Create Doughnut Chart for Chest Pain
+
+Create another new sheet.
+
+Repeat the Dummy field trick (two Dummy fields in Rows → Dual Axis).
+
+Use Chest Pain dimension + dataset count to format the doughnut chart.
+
+How to Perform:
+
+Same process as step 3, but here doughnut represents chest pain categories instead of lung cancer.
+
+5. Create Histogram for Age
+
+Create another new sheet.
+
+Drag Age → Rows.
+
+Go to Show Me → select Histogram.
+
+How to Perform:
+
+Tableau automatically bins Age into intervals (e.g., 20–30, 30–40, etc.).
+
+Histogram shows frequency of patients in each age range.
+
+6. Create Bubble Chart for Gender
+
+Create a new sheet.
+
+Drag Gender → Columns.
+
+Drag Number of Records (count) → Size (Marks card).
+
+Change Marks → Circle.
+
+How to Perform:
+
+Each gender is represented by a bubble.
+
+Bubble size shows the number of records for each gender.
+
+7. Create the Dashboard
+
+Click New Dashboard icon (bottom tab next to sheets).
+
+In Dashboard Pane, set device type (Desktop, Tablet, Phone) and adjust width/height.
+
+How to Perform:
+
+This opens a blank dashboard canvas where you can place multiple charts together.
+
+8. Add Dashboard Title
+
+From Objects (left panel), drag Text → place at top.
+
+Type “Lung Cancer Analysis” → format (font, size, alignment).
+
+How to Perform:
+
+You can style it like a report heading (bold, bigger font).
+
+9. Insert Sheets into Dashboard
+
+From Sheets section (left panel), drag Bar Chart, Doughnut Charts, Histogram, and Bubble Chart into dashboard.
+
+Arrange them properly.
+
+How to Perform:
+
+You can resize and reposition each visualization like tiles in a layout.
+
+Use floating option if you want charts to overlap or place freely.
+
+10. Format Dashboard
+
+Go to Format → Dashboard from top menu.
+
+Apply background color, grid lines, borders if needed.
+
+Save the dashboard.
+
+How to Perform:
+
+This makes the dashboard look clean and presentation-ready.
+
+Save using File → Save to Tableau Public (if logged in) or Save As → .twbx.
