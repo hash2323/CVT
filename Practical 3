@@ -1,0 +1,52 @@
+Practical No. 03 – Creating Data Visualizations
+
+Aim: Create Bar, Stacked Bar, Pie, Scatter Plot, and Line Chart.
+
+A) Bar Graph
+
+Open dataset → New Worksheet.
+
+Drag Category → Columns, Drag Sales → Rows.
+
+Go to Show Me panel → select Bar Chart.
+
+Customize:
+a) Click Sort icon on axis to arrange bars.
+b) Drag Region → Color shelf (for different colors).
+c) Drag Sales → Label shelf (show values).
+
+B) Stacked Bar Graph
+
+Follow same steps as Bar Graph.
+
+Drag Region (or another dimension) → Color shelf.
+
+Go to Analysis → Stack Marks → On (if not stacked).
+
+C) Pie Chart
+
+Open worksheet → drag Sales → Angle (on Marks card).
+
+Change Marks → Pie.
+
+Drag Category → Color and Label shelves.
+
+Adjust size of pie using Size shelf.
+
+D) Scatter Plot
+
+Open worksheet → drag Sales → Columns, Profit → Rows.
+
+Go to Show Me → select Scatter Plot.
+
+Drag Category → Color to differentiate points.
+
+E) Line Chart
+
+Open worksheet → drag Order Date → Columns, Sales → Rows.
+
+Change Marks → Line.
+
+Right-click on date → select Month/Year depending on detail.
+
+Add labels and format axis for clarity.
