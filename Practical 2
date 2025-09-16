@@ -1,0 +1,53 @@
+Practical No. 02 – Adding Data Sources
+
+Aim: Work with multiple data sources – joins, unions, metadata, hierarchies, calculated fields, optimization.
+
+Steps with “How to Perform”:
+A) Set up Connectors
+
+Open Tableau Public → On Start Page, under Connect, click Microsoft Excel.
+
+Select your dataset Excel file and click Open.
+
+B) Selecting Tables
+
+Once dataset is loaded, Tableau shows all available tables (sheet names).
+
+Click on a table name → preview its data appears below.
+
+C) Performing Joins/Unions
+
+Drag one table (e.g., Returns) on top of another (e.g., Orders) in the canvas area.
+
+Tableau shows a Join icon (two overlapping circles).
+
+Click the icon → choose Join Type (Inner, Left, Right, Full) and Join Field (common column).
+
+D) Edit Metadata
+
+Go to Data Source tab.
+
+Right-click Order Date → select Rename → type Date of Order.
+
+Click data type icon next to Row ID → change from Number (whole) to Number (decimal).
+
+Right-click Ship Mode → select Aliases → change Standard Class to High Class.
+
+E) Add Hierarchies / Calculated Fields
+
+Hierarchy:
+a) In the Data Pane, drag Category field over Sub-Category.
+b) Tableau asks to create hierarchy → name it Product Category.
+c) Drag Product Category to Rows → drag Sales to Columns → expand to see both.
+
+Calculated Field:
+a) In the Data Pane → Right-click → select Create Calculated Field.
+b) Name it Profit Ratio.
+c) Formula: [Profit] / [Sales].
+d) Drag Profit Ratio to Rows and Sub-Category to Columns → see visualization.
+
+F) Optimize Performance
+
+Right-click a field (e.g., Profit) → select Show Filter.
+
+Use filters to reduce unnecessary data and speed up analysis.
