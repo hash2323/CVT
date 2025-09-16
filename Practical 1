@@ -1,0 +1,24 @@
+Practical 01 – Introduction to Tableau
+
+Go to Tableau Public
+.
+
+Click Create → Download Tableau Desktop Public Edition.
+
+Click on Download Tableau Public.
+
+Fill details and download.
+
+Run the installer → Install.
+
+Open Tableau Public.
+
+From Connect, choose Microsoft Excel → select dataset.
+
+On the data source page, rename sheets and prepare data.
+
+Drag a Dimension to Columns and a Measure to Rows → Bar chart.
+
+Go to File → Save As.
+
+Save with .twb or .twbx.
