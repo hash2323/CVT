@@ -1,0 +1,47 @@
+Practical No. 05 – Table Calculations & LOD
+
+Aim: Perform advanced calculations like percent of total, running total, percent difference, rank, moving average.
+
+A) Percent of Total
+
+Drag Sales → Rows.
+
+Right-click → Add Table Calculation.
+
+Choose Percent of Total.
+
+Select Compute Using (Table Down/Across).
+
+B) Running Total
+
+Drag Sales → Rows.
+
+Add Table Calculation → Running Total.
+
+Choose direction (Across Rows/Columns).
+
+C) Percent Difference
+
+Drag Sales → Rows.
+
+Add Table Calculation → Percent Difference.
+
+Choose Table Across/Down.
+
+D) Rank
+
+Drag Sales → Rows.
+
+Add Table Calculation → Rank.
+
+Choose Highest to Lowest.
+
+Advanced → Dense/Unique rank.
+
+E) Moving Average
+
+Drag Sales → Rows.
+
+Add Table Calculation → Moving Average.
+
+Set Number of Previous Values (e.g., 3).
