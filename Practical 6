@@ -1,0 +1,121 @@
+Practical No. 06 – Maps in Tableau
+
+Aim: Create Symbol, Filled, and Density Maps, add layers and pie charts, use Viz in Tooltip, explore map services, and analyze spatial data.
+
+A) Symbol Map
+
+Steps:
+
+Drag the Country dimension into Columns or Rows shelf.
+
+Go to Show Me panel → select Symbol Map.
+
+In the Marks card, set mark type as Shape.
+
+Drag the Profit measure to Size.
+
+Click on Shape in Marks card to change symbols.
+
+How to Perform:
+
+After dragging Country, Tableau automatically generates latitude and longitude.
+
+When you choose Symbol Map, dots will appear for each country.
+
+Dragging Profit → Size makes the dots bigger or smaller depending on profit.
+
+Click Shape icon (in Marks card) to pick custom shapes (circles, squares, stars, etc.).
+
+B) Filled Map
+
+Steps:
+
+Drag the Country dimension to the view.
+
+In Show Me, select Maps.
+
+In Marks card, change mark type to Map.
+
+Drag Profit measure to Color.
+
+Add Country dimension to Label.
+
+How to Perform:
+
+Tableau will shade each country.
+
+Darker/lighter colors indicate higher/lower profit.
+
+Adding Country to Label shows the country names on map.
+
+C) Density Map
+
+Steps:
+
+Drag the Country field to the view.
+
+Change the Marks type to Density.
+
+Drag Profit measure to Color.
+
+How to Perform:
+
+Density maps highlight areas with higher concentration of data.
+
+When you drop Profit on Color, areas with higher profit show brighter or more intense color.
+
+D) Adding Map Layers
+
+Steps:
+
+In an existing Symbol Map → go to Map tab in the top ribbon.
+
+Select Background Layers.
+
+In the Background Map Layers pane, add styles (e.g., Streets, Satellite, Dark, etc.).
+
+How to Perform:
+
+You can overlay extra information (terrain, streets, coastline).
+
+Each map style can be toggled from the side panel.
+
+E) Adding Pie Charts on Maps
+
+Steps:
+
+Create a Symbol Map with Country dimension.
+
+In Marks card, change mark type to Pie.
+
+Drag Profit measure to Size.
+
+Drag Category dimension to Color.
+
+Drag Country to Label.
+
+How to Perform:
+
+Each country location becomes a pie chart.
+
+The pie size is based on Profit.
+
+The slices represent different product Categories.
+
+F) Using Viz in Tooltip
+
+Steps:
+
+Create a bar chart showing Profit by Category.
+
+Open the Symbol Map sheet.
+
+Click on Tooltip (Marks card → Label → Tooltip button).
+
+Click Insert → Sheets → select the bar chart sheet.
+
+How to Perform:
+
+When you hover over a country in the Symbol Map, a small bar chart appears inside the tooltip.
+
+This adds extra details without cluttering the main map.
