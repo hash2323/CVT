@@ -1,0 +1,35 @@
+Practical No. 07 – Advanced Analytics
+
+Aim: Use analytics pane for trends, forecasts, and clustering.
+
+A) Identifying Trends
+
+Open dataset (Superstore).
+
+Drag Order Date → Columns (expand to Month).
+
+Drag Sales → Rows (Line chart).
+
+Go to Analytics Pane → drag Trend Line onto chart.
+
+Right-click trend line → Format → change color.
+
+B) Adding Forecasts
+
+Drag Order Date → Columns, Profit → Rows.
+
+Analytics Pane → drag Forecast.
+
+Right-click forecast area → Edit Forecast.
+
+Set Forecast Length (e.g., 6 years).
+
+C) Cluster Analysis
+
+Drag Sales → Columns, Profit → Rows.
+
+Drag City → Detail (Marks card).
+
+Analytics Pane → drag Cluster onto chart.
+
+Change cluster colors in Marks → Color.
